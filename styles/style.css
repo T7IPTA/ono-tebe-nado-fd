@@ -184,7 +184,6 @@
  flex-grow: 1;
  max-width: 334px;
  min-height: 563px;
-  
 }
 
 .card_title {
@@ -323,6 +322,7 @@ font-size: 20px;
 .footer_menu {
   padding-left: 35px;
 }
+
 .footer_links {
   text-align: center;
   font-size: 18px;
@@ -335,4 +335,8 @@ font-size: 20px;
   width: 48px;
   height: 48px;
 }
+
+
+
+
 
