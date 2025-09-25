@@ -13,6 +13,13 @@
   display: flex;
 }
 
+.link_list {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: underline;
+  text-underline-offset: 4px; 
+}
+
 .main_link_marker {
   list-style-type: none; 
   text-decoration: none;
@@ -23,13 +30,6 @@
   display: flex;
   list-style-type: circle;
   padding-right: 7px;
-}
-
-.link_list {
-  font-size: 18px;
-  font-weight: 400;
-  text-decoration: underline;
-  text-underline-offset: 4px; 
 }
 
 .link_main {
@@ -84,7 +84,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  padding: 170px 50px 147px;
+  padding: 140px 50px 140px;
   gap: 35px;   
 } 
 
@@ -128,8 +128,8 @@
   justify-content: space-evenly;
   display: flex;
   align-items: baseline;
-  padding: 0px 50px 50px 78px;
-  gap: 79px;
+  padding: 0px 50px 50px 40px;
+  gap: 82px;
 }
 
 .button {
@@ -211,7 +211,7 @@
 }
 
 .text_on_card {
-  color: #cdc7c7;
+  color: #ffffff;
   font-size: 20px;
   font-style: normal;
   line-height: 120%; 
@@ -233,7 +233,6 @@ margin-left: 64px;
 font-size: 20px;
 }
   
-
 .about_logo {
  background-color: #000;
  display: flex;
@@ -335,8 +334,3 @@ font-size: 20px;
   width: 48px;
   height: 48px;
 }
-
-
-
-
-
