@@ -13,11 +13,6 @@
   display: flex; 
 } 
  
-.main_link_marker { 
-  list-style-type: none;  
-  text-decoration: none; 
-} 
- 
 .menu_links { 
   gap: 32px; 
   display: flex; 
@@ -31,7 +26,12 @@
   text-decoration: underline; 
   text-underline-offset: 4px;  
 } 
- 
+
+ .main_link_marker { 
+  list-style-type: none;  
+  text-decoration: none; 
+}
+
 .link_main { 
   text-decoration: none; 
 } 
@@ -129,7 +129,7 @@
   justify-content: space-evenly; 
   display: flex; 
   align-items: baseline; 
-  padding: 0px 70px 50px 10px; 
+  padding: 0px 70px 50px 30px; 
   white-space: nowrap;
 } 
  
@@ -212,7 +212,7 @@
 } 
  
 .text_on_card { 
-  color: #cdc7c7; 
+  color: #ffffff; 
   font-size: 20px; 
   font-style: normal; 
   line-height: 120%;  
@@ -233,7 +233,6 @@ text-underline-offset: 3px;
 margin-left: 64px; 
 font-size: 20px; 
 } 
-   
  
 .about_logo { 
  background-color: #000; 
